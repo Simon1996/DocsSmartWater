@@ -1,0 +1,26 @@
+User methods:
+
+GET /webapi/wateruser/get/{login}/{password} Check if login&password combination exists - returns user token. 
+POST /webapi/user/post Check if login is free added new user - returns user token (Takes JSON object in POST body) 
+Example of POST body
+   		{
+			"login":"userLogin",
+			"password": "userPassword"
+		}
+	
+
+Shoes methods:
+
+GET /webapi/info/get/{token} Returns automats info in JSON format 
+POST /webapi/info/post Add/update automats info (Takes JSON Object in POST body) 
+Example of POST body
+  	{
+		"locationy": "locationy"
+		"locationx":"locationx",
+		"waterlevel":"waterlevel",
+		"lastupdate":"lastupdate",
+		"usercount":"usercount",
+		"status":"status",
+	}
+	
+
