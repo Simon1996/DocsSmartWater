@@ -1,5 +1,5 @@
 User methods:
-
+https://jerseybuzzapp.herokuapp.com/
 GET /webapi/wateruser/get/{login}/{password} Check if login&password combination exists - returns user token. 
 POST /webapi/user/post Check if login is free added new user - returns user token (Takes JSON object in POST body) 
 Example of POST body
@@ -9,9 +9,9 @@ Example of POST body
 		}
 	
 
-Shoes methods:
+Water Automats methods:
 
-GET /webapi/info/get/{token} Returns automats info in JSON format 
+GET /webapi/info/get/ Returns automats info in JSON format 
 POST /webapi/info/post Add/update automats info (Takes JSON Object in POST body) 
 Example of POST body
   	{
